@@ -96,59 +96,103 @@ Buzzer	Alarm and security indication
    After initialization, the system enters continuous monitoring mode.
 
  3. Continuous Monitoring
+
     The application continuously performs the following tasks:
-        Read current RTC values
-        Read ADC value from LM35
-        Convert ADC reading into temperature
-        Display information on LCD
-        Monitor alarm status
-        Check switch inputs
+
+    Read current RTC values
+    
+    Read ADC value from LM35
+
+    Convert ADC reading into temperature
+
+    Display information on LCD
+
+    Monitor alarm status
+
+    Check switch inputs
+
     Example LCD Display:
-        12:45:30  T:28°C
-        15/07/2026 WED
 
- 4. Alarm Monitoring
+    12:45:30  T:28°C
+
+    15/07/2026 WED
+
+ 5. Alarm Monitoring
+
     The controller continuously compares the current RTC time with the stored alarm time.
+
     When the alarm time matches:
-        Buzzer turns ON
-        Alarm remains active until the user presses the alarm switch
-        Buzzer turns OFF after acknowledgment
 
-5. Secure Edit Mode
-    When the Edit Switch is pressed:
-        System requests password.
-        User enters password using keypad.
-        Entered password is verified.
-    If correct:
-        Edit mode is enabled.
-    If incorrect:
-        Access denied message displayed
-        Wrong attempt counter increases
-        Optional buzzer indication
+    Buzzer turns ON
 
-6. Wrong Password Protection
+    Alarm remains active until the user presses the alarm switch
+
+    Buzzer turns OFF after acknowledgment
+
+8. Secure Edit Mode
+ 
+   When the Edit Switch is pressed:
+
+   System requests password.
+
+   User enters password using keypad.
+
+   Entered password is verified.
+
+   If correct:
+
+   Edit mode is enabled.
+
+   If incorrect:
+
+   Access denied message displayed
+
+   Wrong attempt counter increases
+
+   Optional buzzer indication
+
+11. Wrong Password Protection
+
     If the wrong password is entered three consecutive times:
-        System enters locked state
-        Editing is disabled temporarily (or until reset)
-    LCD displays:
-        System Locked
-    Optional:
-        Buzzer alert
 
-7. Editable Parameters
+    System enters locked state
+
+    Editing is disabled temporarily (or until reset)
+
+    LCD displays:
+
+    System Locked
+
+    Optional:
+
+    Buzzer alert
+
+13. Editable Parameters
+
     After successful authentication, the following parameters can be modified:
-        Current Time
-        Current Date
-        Day
-        Alarm Time
-        System Password
+
+    Current Time
+
+    Current Date
+
+    Day
+
+    Alarm Time
+
+    System Password
+
     Navigation is performed using the keypad.
 
-8. Return to Monitoring
+15. Return to Monitoring
+
     After editing:
-        Updated parameters are saved
-        Edit mode exits
-        Normal monitoring resumes
+
+    Updated parameters are saved
+
+
+    Edit mode exits
+
+    Normal monitoring resumes
 
 
 **🔄 System Flow**
