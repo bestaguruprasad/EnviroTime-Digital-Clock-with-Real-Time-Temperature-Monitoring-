@@ -198,7 +198,9 @@ Buzzer	Alarm and security indication
 **🔄 System Flow**
 
 Start
+   
    │
+  
    ▼
 Initialize Peripherals
    │
