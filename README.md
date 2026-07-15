@@ -1,14 +1,14 @@
 **EnviroTime – Real-Time Digital Clock with Temperature Monitoring**
+
 📌 Overview
+
     EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) microcontroller. 
-    
     It combines an accurate Real-Time Clock (RTC) with ambient temperature monitoring, displaying both on a 16×2 LCD.
-    
     The system also includes a password-protected configuration mode, allowing authorized users to modify time, date, alarm settings, and the system password.
-    
     The project is designed to demonstrate the integration of multiple embedded peripherals such as RTC, ADC, LCD, keypad, switches, and buzzer in a single real-time application.
     
 ✨ Features
+
     🕒 Real-Time Clock (RTC) display
     🌡️ Live ambient temperature monitoring using LM35
     📅 Displays Date, Day, Month, and Year
@@ -20,6 +20,7 @@
     🚫 Security lock after three incorrect password attempts
     
 🛠️ Hardware Requirements
+
     LPC2148 Development Board
     16×2 LCD Display
     LM35 Temperature Sensor
@@ -30,6 +31,7 @@
     Connecting Wires
     
 📚 Software Requirements
+
     Keil uVision IDE
     Flash Magic
     Embe dded C
@@ -37,6 +39,7 @@
     Serial Programmer (for flashing firmware)
     
 🔧 Peripheral Usage
+
     Peripheral	Purpose
     RTC	Maintains current time and date
     ADC	Reads temperature from LM35
@@ -46,6 +49,7 @@
     Buzzer	Alarm and security indication
     
 ⚙️ System Workflow
+
     1. System Initialization
     The controller initializes all required peripherals:
         RTC
@@ -164,6 +168,7 @@ Check Edit Switch
 Repeat Forever
 
 👨‍💻 Developed Using
+
     Microcontroller: LPC2148 (ARM7TDMI-S)
     Programming Language: Embedded C
     Development IDE: Keil uVision
