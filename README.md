@@ -112,60 +112,60 @@
 
 🔄 System Flow
 
-Start
-   │
-   ▼
-Initialize Peripherals
-   │
-   ▼
-Display RTC Information
-   │
-   ▼
-Read Temperature
-   │
-   ▼
-Display Temperature
-   │
-   ▼
-Check Alarm
-   │
-   ├── Alarm Match?
-   │       │
-   │       ├── Yes → Activate Buzzer
-   │       │          │
-   │       │          ▼
-   │       │   Wait for Alarm Switch
-   │       │
-   │       └── No
-   │
-   ▼
-Check Edit Switch
-   │
-   ├── Pressed?
-   │       │
-   │       ├── Yes
-   │       │
-   │       ▼
-   │   Enter Password
-   │       │
-   │       ├── Correct?
-   │       │      │
-   │       │      ├── Yes → Edit Parameters
-   │       │      │
-   │       │      └── No
-   │       │             │
-   │       │             ▼
-   │       │      Increment Counter
-   │       │             │
-   │       │      Counter == 3?
-   │       │             │
-   │       │        Lock System
-   │       │
-   │       ▼
-   │   Return to Monitoring
-   │
-   ▼
-Repeat Forever
+    Start
+       │
+       ▼
+    Initialize Peripherals
+       │
+       ▼
+    Display RTC Information
+       │
+       ▼
+    Read Temperature
+       │
+       ▼
+    Display Temperature
+       │
+       ▼
+    Check Alarm
+       │
+       ├── Alarm Match?
+       │       │
+       │       ├── Yes → Activate Buzzer
+       │       │          │
+       │       │          ▼
+       │       │   Wait for Alarm Switch
+       │       │
+       │       └── No
+       │
+       ▼
+    Check Edit Switch
+       │
+       ├── Pressed?
+       │       │
+       │       ├── Yes
+       │       │
+       │       ▼
+       │   Enter Password
+       │       │
+       │       ├── Correct?
+       │       │      │
+       │       │      ├── Yes → Edit Parameters
+       │       │      │
+       │       │      └── No
+       │       │             │
+       │       │             ▼
+       │       │      Increment Counter
+       │       │             │
+       │       │      Counter == 3?
+       │       │             │
+       │       │        Lock System
+       │       │
+       │       ▼
+       │   Return to Monitoring
+       │
+       ▼
+    Repeat Forever
 
 👨‍💻 Developed Using
 
