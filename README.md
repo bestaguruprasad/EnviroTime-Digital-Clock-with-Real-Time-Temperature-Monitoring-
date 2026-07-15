@@ -6,7 +6,8 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
     The project is designed to demonstrate the integration of multiple embedded peripherals such as RTC, ADC, LCD, keypad, switches, and buzzer in a single real-time application.
     
 **✨ Features**
-    🕒 Real-Time Clock (RTC) display
+    
+🕒 Real-Time Clock (RTC) display
     🌡️ Live ambient temperature monitoring using LM35
     📅 Displays Date, Day, Month, and Year
     🔔 Alarm functionality with buzzer indication
@@ -18,7 +19,7 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
     
 **🛠️ Hardware Requirements**
 
-    LPC2148 Development Board
+LPC2148 Development Board
     16×2 LCD Display
     LM35 Temperature Sensor
     4×4 Matrix Keypad
@@ -28,8 +29,8 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
     Connecting Wires
     
 **📚 Software Requirements**
-    
-    Keil uVision IDE
+
+Keil uVision IDE
     Flash Magic
     Embe dded C
     LPC2148 Header Files
@@ -37,7 +38,7 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
     
 **🔧 Peripheral Usage**
 
-    Peripheral	Purpose
+Peripheral	Purpose
     RTC	Maintains current time and date
     ADC	Reads temperature from LM35
     LCD	Displays time, date, day, and temperature
@@ -47,7 +48,7 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
     
 **⚙️ System Workflow**
 
-    1. System Initialization
+1. System Initialization
     The controller initializes all required peripherals:
         RTC
         LCD
@@ -109,7 +110,7 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
 
 **🔄 System Flow**
 
-    Start
+Start
        │
        ▼
     Initialize Peripherals
@@ -166,7 +167,7 @@ EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) m
 
 **👨‍💻 Developed Using**
 
-    Microcontroller: LPC2148 (ARM7TDMI-S)
+Microcontroller: LPC2148 (ARM7TDMI-S)
     Programming Language: Embedded C
     Development IDE: Keil uVision
     Programming Tool: Flash Magic
