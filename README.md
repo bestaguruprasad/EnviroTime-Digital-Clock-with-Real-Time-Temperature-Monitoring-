@@ -210,10 +210,13 @@ Initialize Peripherals
   ▼
 
 Display RTC Information
+  
   │
+  
   ▼
   
 Read Temperature
+  
   │
 
   ▼
