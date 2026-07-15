@@ -1,5 +1,6 @@
 **📌 Overview**
-    EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) microcontroller. 
+
+EnviroTime is a real-time embedded system built using the LPC2148 (ARM7TDMI-S) microcontroller. 
     It combines an accurate Real-Time Clock (RTC) with ambient temperature monitoring, displaying both on a 16×2 LCD.
     The system also includes a password-protected configuration mode, allowing authorized users to modify time, date, alarm settings, and the system password.
     The project is designed to demonstrate the integration of multiple embedded peripherals such as RTC, ADC, LCD, keypad, switches, and buzzer in a single real-time application.
