@@ -104,11 +104,11 @@ flowchart TD
 
 | Main Display | Main Menu |
 |---|---|
-| ![Main Display](screenshots/01_main_display.jpg) | ![Main Menu](screenshots/02_main_menu.jpg) |
+| ![Main Display](screenshots/04_date_edit_menu.jpg) | ![Main Menu](screenshots/03_time_edit_menu.jpg) |
 
 | Time Edit Menu | Date Edit Menu |
 |---|---|
-| ![Time Edit Menu](screenshots/03_time_edit_menu.jpg) | ![Date Edit Menu](screenshots/04_date_edit_menu.jpg) |
+| ![Time Edit Menu](screenshots/02_main_menu.jpg) | ![Date Edit Menu](screenshots/01_main_display.jpg) |
 
 ---
 
