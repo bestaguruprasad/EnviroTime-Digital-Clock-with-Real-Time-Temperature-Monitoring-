@@ -165,6 +165,9 @@ Full project documentation (aim, objectives, block diagram, requirements, and de
 5. Flash the generated `.hex` file using **Flash Magic**.
 6. Power on the board — the LCD will start displaying time, date, and temperature.
 
+👤 Author
+B Guru Prasad — Embedded Firmware
+
 ---
 
 ⭐ If you found this project useful, consider giving the repository a star!
